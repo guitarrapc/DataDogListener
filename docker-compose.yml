@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  datadoglistener:
+    image: datadoglistener
+    build:
+      context: ./DataDogListener
+      dockerfile: Dockerfile
